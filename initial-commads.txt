@@ -1,0 +1,18 @@
+git --version 
+
+git config --global user.name "Your Name"
+git config --global user.email "your.email@example.com"
+
+git config --list
+
+Command	Purpose
+git init	-Start a new Git repository
+git status	-Check current changes
+git add <file>	-Add a file to staging
+git add .	-Add all changes
+git commit -m "message"	-Commit staged changes
+git log	-Show commit history
+git remote add origin <repo_url>	-Connect local repo to GitHub
+git push -u origin main	-Push code to GitHub
+git pull	-Get latest changes from GitHub
+git clone <repo_url>	-Copy a GitHub repo locally
